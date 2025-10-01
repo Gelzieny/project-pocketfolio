@@ -1,4 +1,5 @@
 import { Header } from "./components/header";
+import { Hero } from "./components/hero";
 import { Theme } from "./components/theme";
 
 export function  App() {
@@ -8,7 +9,7 @@ export function  App() {
       <Header />
       <Theme/>
       
-      
+      <Hero />
     </div>
   )
 }
